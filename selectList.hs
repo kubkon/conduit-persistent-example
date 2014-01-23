@@ -10,7 +10,7 @@ import Specs (myRecordValue)
 main :: IO ()
 main = runSqlite "test.sqlite" $ do
 
-    -- Using standard list approach
+    -- Select all records from DB and unpack into a list of Ints
     records <- selectList [] []
     let values = map (myRecordValue . entityVal) records
     mapM_ (liftIO . putStrLn . show) $ zip values $ tail values
