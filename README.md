@@ -1,7 +1,7 @@
 conduit-persistent-example
 ===
 
-This code demonstrates how to use Conduit together with Persistent to stream data in constant memory in Haskell. Have a look at the accompanying weblog post [here]().
+This code demonstrates how to use Conduit together with Persistent to stream data in constant memory in Haskell. Have a look at the accompanying weblog post [here](http://www.jakubkonka.com/2014/01/23/conduit-haskell.html).
 
 # Usage
 
